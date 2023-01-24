@@ -50,30 +50,6 @@
         width: 177px;
         height: 314px;
     }
-
-    section#redes-sociais {
-        display: flex;
-        flex-direction: column;
-        align-items: flex-end;
-        margin-right: 18px;
-        padding-top: 20px;
-    }
-    
-    section#redes-sociais img {
-        width: 50px;
-        margin-bottom: 10px;
-        border-radius: 50%;
-        box-shadow: 2px 2px 3px #0202027e;
-        box-sizing: border-box;
-    }
-    
-    section#redes-sociais img:hover {
-        width: 60px;
-        border: 2px solid #ffffffa8;
-        transform: translate(-3px, -5px);
-        box-shadow: 5px 5px 3px #0202027e;
-        transition: tranform .1s, border .2s;
-    }
 }
 
 
