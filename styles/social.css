@@ -1,0 +1,33 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    background-color: #4E4EEB;
+    font: normal bold 1em Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 0;
+    height: 0;
+}
+img {
+    display: block;
+    width: 100vw;
+}
+a {
+    display: block;
+    position: relative;
+    background-color: lightgray;
+    color: black;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+}
+a:hover{
+    transition-delay: .2s;
+    transition: text-transform .2s;
+    border: 1px solid black;
+    filter: brightness(.75) hue-rotate(10deg);
+    text-shadow: 2px 2px 2px #00000069;
+}
